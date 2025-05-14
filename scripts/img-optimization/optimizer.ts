@@ -42,7 +42,7 @@ export async function optimize({
 
       if (caching && (await file(targetPath).exists())) continue;
 
-      let s = sharp(sourcePath);
+      let s = sharp(sourcePath).rotate();
       s = target.transform?.(s) ?? s;
       s = type.transform(s);
       await s.toFile(targetPath);
