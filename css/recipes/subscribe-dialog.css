@@ -1,5 +1,5 @@
 .subscribe-dialog {
-  background: top/contain no-repeat url(../img/modal-bg-img.png),
+  background: top/contain no-repeat url(../../img/modal-bg-img.png),
     var(--color-orange-1);
   border: none;
   padding: 40px 50px 30px;
