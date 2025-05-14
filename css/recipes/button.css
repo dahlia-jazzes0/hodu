@@ -24,3 +24,9 @@
 .button--icon {
   padding: 0;
 }
+
+@media screen and (min-width: 1280px) {
+  .button {
+    padding: 15px 30px;
+  }
+}

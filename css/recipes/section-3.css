@@ -43,3 +43,39 @@
   display: flex;
   justify-content: end;
 }
+
+@media screen and (min-width: 1280px) {
+  .section-3 {
+    margin: 120px 0 0;
+    align-items: center;
+  }
+  .section-3__title {
+    font-size: 48px;
+  }
+  .section-3__description {
+    margin-top: 40px;
+    font-size: 16px;
+    max-width: 739px;
+  }
+  .section-3__carousel {
+    margin: 88px 0 0;
+    padding: 0 0 90px;
+    gap: 72px;
+  }
+  .section-3__carousel-thumbnail {
+    width: 378px;
+    height: 378px;
+    border-radius: var(--rounded-lg);
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 0.25);
+  }
+  .section-3__learn-more {
+    width: 938px;
+    display: flex;
+    align-items: center;
+    gap: 52px;
+  }
+  .section-3__actions {
+    margin-top: 0;
+    display: block;
+  }
+}

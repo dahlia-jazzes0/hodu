@@ -64,3 +64,29 @@
     animation: slide 0.2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  :root {
+    --header-height: 102px;
+  }
+  .header__layout {
+    padding: 0;
+  }
+  .header__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 0;
+    align-items: center;
+  }
+  .header__menu {
+    flex-direction: row;
+    gap: 30px;
+    padding: 0;
+    align-items: center;
+  }
+  .header__link {
+    color: black;
+    font-weight: 400;
+  }
+}

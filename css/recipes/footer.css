@@ -48,3 +48,33 @@
   color: var(--color-gray-5);
   text-decoration: none;
 }
+
+@media screen and (min-width: 1280px) {
+  :root {
+    --footer-height: 160px;
+  }
+  .footer {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    height: var(--footer-height);
+  }
+  .footer__logo {
+    width: 226px;
+    height: 70px;
+  }
+  .footer__layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .share-links {
+    margin-top: 0;
+    gap: 20px;
+  }
+  .share-link {
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+  }
+}

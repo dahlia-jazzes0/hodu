@@ -37,3 +37,36 @@
   height: 422px;
   margin: 30px 0 -54px;
 }
+@media screen and (min-width: 1280px) {
+  .section-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section-1__layout {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .section-1__body {
+    flex-basis: 737px;
+    align-items: start;
+  }
+  .section-1__title {
+    margin-top: 200px;
+    font-size: 48px;
+    text-align: left;
+  }
+  .section-1__description {
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: left;
+  }
+  .section-1__button {
+    margin-top: 40px;
+  }
+  .section-1__hodu {
+    width: 415px;
+    height: 890px;
+    margin: 0 0 -124px;
+  }
+}

@@ -25,3 +25,26 @@
   font-size: 14px;
   line-height: var(--leading-normal);
 }
+
+@media screen and (min-width: 1280px) {
+  .section-2 {
+    margin: 80px 0 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .section-2__thumbnail {
+    width: 660px;
+    height: 390px;
+  }
+  .section-2__layout {
+    flex-basis: 510px;
+    gap: 30px;
+    justify-content: center;
+  }
+  .section-2__title {
+    font-size: 36px;
+  }
+  .section-2__description {
+    font-size: 16px;
+  }
+}
