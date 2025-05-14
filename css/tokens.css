@@ -1,0 +1,15 @@
+:root {
+  --color-gray-9: #263140;
+  --color-gray-5: #767676;
+  --color-orange-1: #f2e9d8;
+  --color-orange-4: #f29d52;
+  --color-orange-5: #d97652;
+
+  --font-sans: "Spoqa Han Sans Neo", sans-serif;
+
+  --leading-normal: 1.6;
+
+  --rounded-full: 99999rem;
+  --rounded-md: 18px;
+  --rounded-lg: 30px;
+}

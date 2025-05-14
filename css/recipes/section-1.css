@@ -1,0 +1,39 @@
+.section-1 {
+  padding: var(--header-height) 66px 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-orange-1);
+  overflow: clip;
+}
+.section-1__layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-1__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-1__title {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  line-height: var(--leading-normal);
+}
+.section-1__description {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: var(--leading-normal);
+}
+.section-1__button {
+  margin-top: 30px;
+}
+.section-1__hodu {
+  width: 197px;
+  height: 422px;
+  margin: 30px 0 -54px;
+}

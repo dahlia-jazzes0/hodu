@@ -1,0 +1,16 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+@keyframes slide {
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

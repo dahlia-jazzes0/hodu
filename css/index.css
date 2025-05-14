@@ -1,0 +1,7 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@import url("reset.css") layer(reset);
+@import url("base.css") layer(base);
+@import url("tokens.css") layer(tokens);
+@import url("recipes/index.css") layer(recipes);
+@import url("utilities.css") layer(utilities);

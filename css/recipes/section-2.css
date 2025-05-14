@@ -1,0 +1,27 @@
+.section-2 {
+  margin: 32px 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.section-2__layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-2__thumbnail {
+  width: 100%;
+  aspect-ratio: 326 / 190;
+  border-radius: var(--rounded-md);
+  box-shadow: 10px 10px 20px rgb(0 0 0 / 0.25);
+  object-fit: cover;
+}
+.section-2__title {
+  font-size: 24px;
+  text-wrap: balance;
+  font-weight: 700;
+}
+.section-2__description {
+  font-size: 14px;
+  line-height: var(--leading-normal);
+}

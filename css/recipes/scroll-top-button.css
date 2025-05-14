@@ -1,0 +1,19 @@
+.scroll-top-button {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  border: 1px solid #c4c4c4;
+  color: #c4c4c4;
+  background: hsl(0 0 100% / 0.8);
+  right: 24px;
+  bottom: calc(var(--footer-height) + 24px);
+  width: 50px;
+  height: 50px;
+  border-radius: var(--rounded-full);
+  cursor: pointer;
+}
+.scroll-top-button:hover {
+  color: #767676;
+}

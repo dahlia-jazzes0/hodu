@@ -1,0 +1,34 @@
+.subscribe-dialog {
+  background: top/contain no-repeat url(../img/modal-bg-img.png),
+    var(--color-orange-1);
+  border: none;
+  padding: 40px 50px 30px;
+  border-radius: var(--rounded-lg);
+  box-shadow: 0 0 20px rgb(0 0 0 / 0.2);
+  width: 300px;
+  margin: auto;
+}
+.subscribe-dialog__layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.subscribe-dialog__img {
+  width: 60px;
+  height: 62px;
+  object-fit: cover;
+}
+.subscribe-dialog__title {
+  margin-top: 24px;
+  color: var(--color-orange-5);
+  font-size: 24px;
+  font-weight: 700;
+}
+.subscribe-dialog__description {
+  margin-top: 10px;
+  margin-bottom: 28px;
+  font-size: 14px;
+  line-height: var(--leading-normal);
+  text-wrap: balance;
+}

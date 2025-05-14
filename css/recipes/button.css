@@ -1,0 +1,26 @@
+.button {
+  appearance: none;
+  display: inline-flex;
+  font-family: unset;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  padding: 11px 24px;
+  border-radius: var(--rounded-full);
+  cursor: pointer;
+  word-break: keep-all;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.button--primary {
+  background: var(--color-orange-5);
+  font-weight: 700;
+  color: white;
+}
+
+.button--icon {
+  padding: 0;
+}

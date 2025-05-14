@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HODU</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__layout">
+      <h1>
+        <a href="#">
+          <img class="header__logo" src="img/logo.svg" alt="">
+          <span class="sr-only">호두 페이지</span>
+        </a>
+      </h1>
+      <nav class="desktop-only header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a class="header__link" href="#">Home</a></li>
+          <li class="header__menu-item"><a class="header__link" href="#">About</a></li>
+          <li class="header__menu-item"><a class="header__link" href="#">Support</a></li>
+        </ul>
+        <a class="button button--primary">Download</a>
+      </nav>
+      <div class="mobile-only">
+        <button id="sidebar-open-button" class="button button--icon">
+          <img src="img/menu.svg" alt="">
+          <span class="sr-only">메뉴 열기</span>
+        </button>
+        <dialog id="sidebar" class="mobile-only header__sidebar">
+          <article>
+            <h2 class="sr-only">메뉴</h2>
+            <form method="dialog">
+              <button class="button button--icon" autofocus>
+                <img src="img/arrow-right.svg" alt="">
+                <span class="sr-only">메뉴 닫기</span>
+              </button>
+              <nav class="header__nav">
+                <ul class="header__menu">
+                  <li class="header__menu-item"><a class="header__link" href="#">Home</a></li>
+                  <li class="header__menu-item"><a class="header__link" href="#">About</a></li>
+                  <li class="header__menu-item"><a class="header__link" href="#">Support</a></li>
+                </ul>
+                <a class="button button--primary">Download</a>
+              </nav>
+            </form>
+          </article>
+        </dialog>
+      </div>
+    </div>
+  </header>
+  <main id="top">
+    <h2 class="sr-only">Lorem Ipsum</h2>
+    <section class="section-1">
+      <div class="container section-1__layout">
+        <div class="section-1__body">
+          <h3 class="section-1__title">Lorem Ipsum is simply dummy text of the printing and</h3>
+          <p class="section-1__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem
+            Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown</p>
+          <a class="section-1__button button button--primary">Download</a>
+        </div>
+        <picture>
+          <source srcset="img/box-cat.avif" type="image/avif">
+          <source srcset="img/box-cat.webp" type="image/webp">
+          <img class="section-1__hodu" src="img/box-cat.png" alt="">
+        </picture>
+      </div>
+    </section>
+    <div class="container">
+      <section class="section-2">
+        <picture>
+          <source srcset="img/img_4.avif" type="image/avif">
+          <source srcset="img/img_4.webp" type="image/webp">
+          <img class="section-2__thumbnail" src="img/img_4.png" alt="침대에 누워서 왼편을 바라보는 고양이" loading="lazy">
+        </picture>
+        <div class="section-2__layout">
+          <h3 class="section-2__title">Lorem Ipsum is simply dummy text of the printing and dummy text</h3>
+          <p class="section-2__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+      </section>
+      <section class="section-3">
+        <h3 class="section-3__title">dummy text of the printing and dummy</h3>
+        <p class="section-3__description">Lorem Ipsum is simply <span class="section-3__description-emphasis">dummy
+            text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+          text
+          ever since the 1500s, when an unknown</p>
+        <ol class="section-3__carousel">
+          <li>
+            <picture>
+              <source srcset="img/img_1.avif" type="image/avif">
+              <source srcset="img/img_1.webp" type="image/webp">
+              <img class="section-3__carousel-thumbnail" src="img/img_1.png" alt="캣 타워 위에 누워서 오른쪽 구석을 응시하는 고양이"
+                draggable="false" loading="lazy">
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source srcset="img/img_2.avif" type="image/avif">
+              <source srcset="img/img_2.webp" type="image/webp">
+              <img class="section-3__carousel-thumbnail" src="img/img_2.png" alt="등을 등지고 앉아있는 콘센트 옆에 앉아있는 고양이"
+                draggable="false" loading="lazy">
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source srcset="img/img_3.avif" type="image/avif">
+              <source srcset="img/img_3.webp" type="image/webp">
+              <img class="section-3__carousel-thumbnail" src="img/img_3.png" alt="사냥감을 노려보는 고양이" draggable="false"
+                loading="lazy">
+            </picture>
+          </li>
+        </ol>
+        <div class="section-3__learn-more">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's
+            standard dummy text ever since the 1500s, when an unknown<br> Ipsum is simply dummy text of the printing and
+            typesetting industry.</p>
+          <div class="section-3__actions">
+            <a class="button button--primary" href="#">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section class="section-4">
+        <div class="section-4__layout">
+          <h3 class="section-4__title">Subscribe to our Blog post</h3>
+          <p class="section-4__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem
+            Ipsum has been the industry's
+            standard dummy text </p>
+        </div>
+        <form id="subscribe-form" method="post">
+          <div class="section-4__email-input">
+            <label class="section-4__email-icon">
+              <img src="img/mail.svg" alt="">
+              <span class="sr-only">이메일</span>
+            </label>
+            <input class="input section-4__input" type="email" placeholder="Enter your e-mail address" required>
+          </div>
+          <div class="section-4__actions">
+            <button class="button button--primary" type="submit">Subscribe</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <div class="main-background">
+      <picture>
+        <source srcset="img/img_5.avif" type="image/avif">
+        <source srcset="img/img_5.webp" type="image/webp">
+        <img class="main-background__image" src="img/img_5.png" loading="lazy">
+      </picture>
+    </div>
+  </main>
+  <footer class="footer container">
+    <div class="footer__layout">
+      <h2>
+        <a href="#">
+          <img class="footer__logo" src="img/logo.svg" alt="">
+          <span class="sr-only">호두 페이지</span>
+        </a>
+      </h2>
+      <ul class="share-links">
+        <li><a class="share-link" href="#"><img class="share-link__img" src="img/blog.svg" alt="호두 블로그"></a></li>
+        <li><a class="share-link" href="#"><img class="share-link__img" src="img/instagram.svg" alt="호두 인스타그램"></a></li>
+        <li><a class="share-link" href="#"><img class="share-link__img" src="img/facebook.svg" alt="호두 페이스북"></a></li>
+        <li><a class="share-link" href="#"><img class="share-link__img" src="img/youtube.svg" alt="호두 유튜브 채널"></a></li>
+      </ul>
+    </div>
+    <ul class="mobile-only site-links">
+      <li><a class="site-link" href="#">About</a></li>
+      <li><a class="site-link" href="#">Blog</a></li>
+      <li><a class="site-link" href="#">Support</a></li>
+      <li><a class="site-link" href="#">Terms of Use</a></li>
+    </ul>
+  </footer>
+  <dialog id="subscribe-dialog" class="subscribe-dialog">
+    <article>
+      <form method="dialog" class="subscribe-dialog__layout">
+        <picture>
+          <source srcset="img/cat-subscribe.avif" type="image/avif">
+          <source srcset="img/cat-subscribe.webp" type="image/webp">
+          <img class="subscribe-dialog__img" src="img/cat-subscribe.png" alt="" />
+        </picture>
+        <h2 class="subscribe-dialog__title">Thank you!</h2>
+        <p class="subscribe-dialog__description">Lorem Ipsum is simply dummy text of the printing industry.</p>
+        <button class="button button--primary">OK! I Love HODU</button>
+      </form>
+    </article>
+  </dialog>
+  <a class="scroll-top-button" aria-hidden="true" href="#top">
+    <svg width="20" height="20" viewBox="0 -3.5 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2.35 12.6833L10 5.04992L17.65 12.6833L20 10.3333L10 0.333252L0 10.3333L2.35 12.6833Z"
+        fill="currentColor" />
+    </svg>
+  </a>
+  <script>
+    const $sidebar = document.querySelector("#sidebar");
+    const $sidebarOpenButton = document.querySelector("#sidebar-open-button");
+
+    $sidebarOpenButton.addEventListener("click", () => {
+      $sidebar.showModal();
+    })
+
+    const $subscribeForm = document.querySelector("#subscribe-form");
+    const $subscribeDialog = document.querySelector("#subscribe-dialog");
+
+    $subscribeForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      $subscribeDialog.showModal();
+    })
+  </script>
+</body>
+
+</html>
